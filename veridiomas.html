@@ -20,7 +20,7 @@
             </div>
             <nav>
                 <label for="idioma">Idioma</label>
-                <select name="" id="idioma">
+                <select name="" id="idioma" onchange="seleccionarIdioma()">
                     <option value ="es">Español</option>
                     <option value ="en">English</option>
                     <option value ="ita">Italiano</option>
@@ -28,35 +28,35 @@
                 </select>
             </nav>
     </header>
-    <main clase="contenido">
-        <h1 id="titulo">Aprendé idiomas en su solo click</h1>
+    <main id="contenido">
+        <h2 id="aprende" >Aprendé idiomas en su solo click</h2>
         <div class="partes">
             <article class="idiomas">
                 <img src="https://cdn.busuu.com/homepage/34.11.2/img/icons/flags/icon_flag-es.svg" alt="Bandera España">
-                <p>Clases de español</p>
+                <p id="español">Clases de español</p>
                 </article>
             <article class="idiomas">
                 <img src="https://cdn.busuu.com/homepage/34.11.2/img/icons/flags/icon_flag-en.svg" alt="Bandera Reino Unido">
-                <p>Clases de inglés </p>
+                <p id="ingles">Clases de inglés </p>
                 </article>
             <article class="idiomas">
                 <img src="https://cdn.busuu.com/homepage/34.11.2/img/icons/flags/icon_flag-it.svg" alt="Bandera Italia">
-                <p>Clases de italiano </p>
+                <p id="italiano">Clases de italiano </p>
                 </article>
         </div>
         
         <div class="partes">
             <article class="idiomas">
                 <img src="https://cdn.busuu.com/homepage/34.11.2/img/icons/flags/icon_flag-fr.svg" alt="Bandera Francia">
-                <p>Clases de francés </p>
+                <p id="frances">Clases de francés </p>
                 </article>
             <article class="idiomas">
                 <img src="https://cdn.busuu.com/homepage/34.12.0/img/icons/flags/icon_flag-de.svg" alt="Bandera Alemania">
-                <p>Clases de alemán </p>
+                <p id="aleman">Clases de alemán </p>
                 </article>
             <article class="idiomas">
                 <img src="https://cdn.busuu.com/homepage/34.12.0/img/icons/flags/icon_flag-pt.svg" alt="Bandera Brasil">
-                <p>Clases de portugués </p>
+                <p id="portugues">Clases de portugués </p>
                 </article>
         </div>
     </main>
