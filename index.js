@@ -16,7 +16,7 @@ let frases = {
     },
     ita:{
         bienvenido: "BENVENUTO A SWIFTGRAMMAR",
-        aprende: "Impara lingue con profsessori nativi",
+        aprende: "Impara lingue con insegnanti madrelingua",
         certifica: "Certifica il tuo nivello con essami internazionali",
         contacto: "Contattaci",
         ver: "Vedere di più"
